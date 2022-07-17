@@ -1,0 +1,39 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.19.0",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.0",
+    "@react-spectrum/slider": "^3.1.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@sweetalert2/themes": "^5.0.11",
+    "@wcj/generate-password": "^1.0.3",
+    "axios": "^0.27.2",
+    "check-password-strength": "^2.0.5",
+    "generate-password": "^1.7.0",
+    "rc-slider": "^10.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-spinners": "^0.13.3",
+    "react-toastify": "^9.0.5",
+    "sweetalert2": "^11.4.22"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.9"
+  }
+}
