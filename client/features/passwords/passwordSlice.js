@@ -150,7 +150,7 @@ export const passwordSlice = createSlice({
         );
         Toast.fire({
           icon: "success",
-          title: "Item was succesfully deleted!",
+          title: "Password was succesfully deleted!",
         });
       })
       .addCase(deletePassword.rejected, (state, action) => {
