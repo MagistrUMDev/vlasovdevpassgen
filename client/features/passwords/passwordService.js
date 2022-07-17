@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `https://vlasovgenpass.herokuapp.com/`;
+const API_URL = `https://vlasovgenpass.herokuapp.com/api/savedpasswords/`;
 
 // Create new password
 const createPassword = async (passwordData, token) => {
