@@ -31,7 +31,7 @@ const PasswordItem = ({ password }) => {
           <button className="copy">
             <FaClone
               onClick={async (e) => {
-                await navigator.clipboard.writeText(password);
+                await navigator.clipboard.writeText(password.password);
                 Toast.fire({
                   icon: "success",
                   title: "You have copied the password",
